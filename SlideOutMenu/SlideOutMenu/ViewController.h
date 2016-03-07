@@ -8,7 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
+
+
 @interface ViewController : UIViewController
+
+- (IBAction)signoutButtonPressed:(id)sender;
 
 @property (weak, nonatomic) IBOutlet UIBarButtonItem *barButton;
 

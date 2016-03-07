@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0000460E1C8CE9B400BAE416 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0000460D1C8CE9B400BAE416 /* LoginViewController.m */; };
+		000046101C8CE9FA00BAE416 /* Social buttons by Dreamstale (2).png in Resources */ = {isa = PBXBuildFile; fileRef = 0000460F1C8CE9FA00BAE416 /* Social buttons by Dreamstale (2).png */; };
+		000046121C8CEA1C00BAE416 /* Social buttons by Dreamstale (5).png in Resources */ = {isa = PBXBuildFile; fileRef = 000046111C8CEA1C00BAE416 /* Social buttons by Dreamstale (5).png */; };
+		000046151C8CEDE200BAE416 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 000046141C8CEDE200BAE416 /* FBSDKCoreKit.framework */; };
+		000046171C8CF8A500BAE416 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 000046161C8CF8A500BAE416 /* FBSDKLoginKit.framework */; };
 		006D9EB51C70C5DB0040D807 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 006D9EB41C70C5DB0040D807 /* main.m */; };
 		006D9EB81C70C5DB0040D807 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 006D9EB71C70C5DB0040D807 /* AppDelegate.m */; };
 		006D9EBB1C70C5DB0040D807 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 006D9EBA1C70C5DB0040D807 /* ViewController.m */; };
@@ -19,6 +24,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0000460C1C8CE9B400BAE416 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		0000460D1C8CE9B400BAE416 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		0000460F1C8CE9FA00BAE416 /* Social buttons by Dreamstale (2).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Social buttons by Dreamstale (2).png"; sourceTree = "<group>"; };
+		000046111C8CEA1C00BAE416 /* Social buttons by Dreamstale (5).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Social buttons by Dreamstale (5).png"; sourceTree = "<group>"; };
+		000046141C8CEDE200BAE416 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		000046161C8CF8A500BAE416 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		006D9EB01C70C5DB0040D807 /* SlideOutMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideOutMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		006D9EB41C70C5DB0040D807 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		006D9EB61C70C5DB0040D807 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -41,12 +52,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				000046171C8CF8A500BAE416 /* FBSDKLoginKit.framework in Frameworks */,
+				000046151C8CEDE200BAE416 /* FBSDKCoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		000046131C8CEDBB00BAE416 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				000046161C8CF8A500BAE416 /* FBSDKLoginKit.framework */,
+				000046141C8CEDE200BAE416 /* FBSDKCoreKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		006D9EA71C70C5DB0040D807 = {
 			isa = PBXGroup;
 			children = (
@@ -66,6 +88,7 @@
 		006D9EB21C70C5DB0040D807 /* SlideOutMenu */ = {
 			isa = PBXGroup;
 			children = (
+				000046131C8CEDBB00BAE416 /* Frameworks */,
 				006D9EB61C70C5DB0040D807 /* AppDelegate.h */,
 				006D9EB71C70C5DB0040D807 /* AppDelegate.m */,
 				006D9EB91C70C5DB0040D807 /* ViewController.h */,
@@ -73,6 +96,10 @@
 				006D9EBC1C70C5DB0040D807 /* Main.storyboard */,
 				006D9ECE1C70D4D60040D807 /* NavigationViewController.h */,
 				006D9ECF1C70D4D60040D807 /* NavigationViewController.m */,
+				0000460C1C8CE9B400BAE416 /* LoginViewController.h */,
+				0000460D1C8CE9B400BAE416 /* LoginViewController.m */,
+				0000460F1C8CE9FA00BAE416 /* Social buttons by Dreamstale (2).png */,
+				000046111C8CEA1C00BAE416 /* Social buttons by Dreamstale (5).png */,
 				006D9EBF1C70C5DB0040D807 /* Assets.xcassets */,
 				006D9EC11C70C5DB0040D807 /* LaunchScreen.storyboard */,
 				006D9EC41C70C5DB0040D807 /* Info.plist */,
@@ -162,6 +189,8 @@
 				006D9EC01C70C5DB0040D807 /* Assets.xcassets in Resources */,
 				006D9EBE1C70C5DB0040D807 /* Main.storyboard in Resources */,
 				006D9ED61C70E7F70040D807 /* keOWD.png in Resources */,
+				000046121C8CEA1C00BAE416 /* Social buttons by Dreamstale (5).png in Resources */,
+				000046101C8CE9FA00BAE416 /* Social buttons by Dreamstale (2).png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,6 +203,7 @@
 			files = (
 				006D9EBB1C70C5DB0040D807 /* ViewController.m in Sources */,
 				006D9EB81C70C5DB0040D807 /* AppDelegate.m in Sources */,
+				0000460E1C8CE9B400BAE416 /* LoginViewController.m in Sources */,
 				006D9ED01C70D4D60040D807 /* NavigationViewController.m in Sources */,
 				006D9EB51C70C5DB0040D807 /* main.m in Sources */,
 				006D9ECD1C70C9A20040D807 /* SWRevealViewController.m in Sources */,
@@ -286,10 +316,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SlideOutMenu",
+				);
 				INFOPLIST_FILE = SlideOutMenu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tiy.SlideOutMenu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -297,10 +332,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SlideOutMenu",
+				);
 				INFOPLIST_FILE = SlideOutMenu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tiy.SlideOutMenu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -323,6 +363,7 @@
 				006D9EC91C70C5DB0040D807 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
