@@ -17,40 +17,8 @@
                     <view key="view" contentMode="scaleToFill" id="6mx-Rt-5YX">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oee-h1-ovg">
-                                <rect key="frame" x="25" y="181" width="271" height="52"/>
-                                <animations/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="52" id="bb9-tP-Eko"/>
-                                </constraints>
-                                <state key="normal" image="Social buttons by Dreamstale (2).png"/>
-                                <connections>
-                                    <action selector="facebookButtonPressed:" destination="C8l-bH-sfc" eventType="touchUpInside" id="LnF-Wx-ueq"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sc5-56-rQc">
-                                <rect key="frame" x="25" y="258" width="271" height="52"/>
-                                <animations/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="52" id="T75-lJ-1gP"/>
-                                </constraints>
-                                <state key="normal" image="Social buttons by Dreamstale (5).png"/>
-                                <connections>
-                                    <action selector="googleButtonPressed:" destination="C8l-bH-sfc" eventType="touchUpInside" id="ngY-7p-Aob"/>
-                                </connections>
-                            </button>
-                        </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstAttribute="trailingMargin" secondItem="sc5-56-rQc" secondAttribute="trailing" constant="8" id="2RJ-1A-Crg"/>
-                            <constraint firstItem="Oee-h1-ovg" firstAttribute="leading" secondItem="6mx-Rt-5YX" secondAttribute="leadingMargin" constant="9" id="RMh-5E-sT7"/>
-                            <constraint firstItem="sc5-56-rQc" firstAttribute="top" secondItem="Oee-h1-ovg" secondAttribute="bottom" constant="25" id="WG8-7t-gbs"/>
-                            <constraint firstItem="sc5-56-rQc" firstAttribute="leading" secondItem="6mx-Rt-5YX" secondAttribute="leadingMargin" constant="9" id="dnB-ny-KHr"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="Oee-h1-ovg" secondAttribute="trailing" constant="8" id="nOg-00-mTR"/>
-                            <constraint firstItem="Oee-h1-ovg" firstAttribute="top" secondItem="0BB-SA-tdW" secondAttribute="bottom" constant="161" id="o8J-jl-Wgo"/>
-                        </constraints>
                     </view>
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="modal" identifier="fbSuccessSegue" id="gBi-SH-pBW"/>
@@ -308,8 +276,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Social buttons by Dreamstale (2).png" width="320" height="60"/>
-        <image name="Social buttons by Dreamstale (5).png" width="320" height="60"/>
         <image name="keOWD.png" width="20" height="14"/>
     </resources>
     <inferredMetricsTieBreakers>

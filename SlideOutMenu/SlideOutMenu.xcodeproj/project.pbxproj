@@ -8,10 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		0000460E1C8CE9B400BAE416 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0000460D1C8CE9B400BAE416 /* LoginViewController.m */; };
-		000046101C8CE9FA00BAE416 /* Social buttons by Dreamstale (2).png in Resources */ = {isa = PBXBuildFile; fileRef = 0000460F1C8CE9FA00BAE416 /* Social buttons by Dreamstale (2).png */; };
-		000046121C8CEA1C00BAE416 /* Social buttons by Dreamstale (5).png in Resources */ = {isa = PBXBuildFile; fileRef = 000046111C8CEA1C00BAE416 /* Social buttons by Dreamstale (5).png */; };
+		000046101C8CE9FA00BAE416 /* socialfb.png in Resources */ = {isa = PBXBuildFile; fileRef = 0000460F1C8CE9FA00BAE416 /* socialfb.png */; };
+		000046121C8CEA1C00BAE416 /* socialgg.png in Resources */ = {isa = PBXBuildFile; fileRef = 000046111C8CEA1C00BAE416 /* socialgg.png */; };
 		000046151C8CEDE200BAE416 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 000046141C8CEDE200BAE416 /* FBSDKCoreKit.framework */; };
 		000046171C8CF8A500BAE416 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 000046161C8CF8A500BAE416 /* FBSDKLoginKit.framework */; };
+		000046191C8D06B000BAE416 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 000046181C8D06B000BAE416 /* GoogleService-Info.plist */; };
+		0000461C1C8D4CE500BAE416 /* GGLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000461B1C8D4CE500BAE416 /* GGLoginViewController.swift */; };
+		0000461E1C8D53A800BAE416 /* libSocialIntegration.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0000461D1C8D53A800BAE416 /* libSocialIntegration.a */; };
 		006D9EB51C70C5DB0040D807 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 006D9EB41C70C5DB0040D807 /* main.m */; };
 		006D9EB81C70C5DB0040D807 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 006D9EB71C70C5DB0040D807 /* AppDelegate.m */; };
 		006D9EBB1C70C5DB0040D807 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 006D9EBA1C70C5DB0040D807 /* ViewController.m */; };
@@ -21,18 +24,24 @@
 		006D9ECD1C70C9A20040D807 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 006D9ECC1C70C9A20040D807 /* SWRevealViewController.m */; };
 		006D9ED01C70D4D60040D807 /* NavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 006D9ECF1C70D4D60040D807 /* NavigationViewController.m */; };
 		006D9ED61C70E7F70040D807 /* keOWD.png in Resources */ = {isa = PBXBuildFile; fileRef = 006D9ED51C70E7F70040D807 /* keOWD.png */; };
+		56507554A07DBBD3422D0A9C /* libPods-SlideOutMenu.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AA5B1BD7D6B3A47872DBEF0 /* libPods-SlideOutMenu.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0000460C1C8CE9B400BAE416 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		0000460D1C8CE9B400BAE416 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
-		0000460F1C8CE9FA00BAE416 /* Social buttons by Dreamstale (2).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Social buttons by Dreamstale (2).png"; sourceTree = "<group>"; };
-		000046111C8CEA1C00BAE416 /* Social buttons by Dreamstale (5).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Social buttons by Dreamstale (5).png"; sourceTree = "<group>"; };
+		0000460F1C8CE9FA00BAE416 /* socialfb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = socialfb.png; sourceTree = "<group>"; };
+		000046111C8CEA1C00BAE416 /* socialgg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = socialgg.png; sourceTree = "<group>"; };
 		000046141C8CEDE200BAE416 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		000046161C8CF8A500BAE416 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		000046181C8D06B000BAE416 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0000461A1C8D4CE400BAE416 /* SlideOutMenu-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SlideOutMenu-Bridging-Header.h"; sourceTree = "<group>"; };
+		0000461B1C8D4CE500BAE416 /* GGLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GGLoginViewController.swift; sourceTree = "<group>"; };
+		0000461D1C8D53A800BAE416 /* libSocialIntegration.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSocialIntegration.a; sourceTree = "<group>"; };
+		000046221C8D549D00BAE416 /* SocialIntegration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialIntegration.h; sourceTree = "<group>"; };
 		006D9EB01C70C5DB0040D807 /* SlideOutMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideOutMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		006D9EB41C70C5DB0040D807 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		006D9EB61C70C5DB0040D807 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		006D9EB61C70C5DB0040D807 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
 		006D9EB71C70C5DB0040D807 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		006D9EB91C70C5DB0040D807 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		006D9EBA1C70C5DB0040D807 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
@@ -45,6 +54,9 @@
 		006D9ECE1C70D4D60040D807 /* NavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationViewController.h; sourceTree = "<group>"; };
 		006D9ECF1C70D4D60040D807 /* NavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationViewController.m; sourceTree = "<group>"; };
 		006D9ED51C70E7F70040D807 /* keOWD.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = keOWD.png; sourceTree = "<group>"; };
+		7A846355AFAE4FBF604C2A5C /* Pods-SlideOutMenu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SlideOutMenu.release.xcconfig"; path = "Pods/Target Support Files/Pods-SlideOutMenu/Pods-SlideOutMenu.release.xcconfig"; sourceTree = "<group>"; };
+		9AA5B1BD7D6B3A47872DBEF0 /* libPods-SlideOutMenu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SlideOutMenu.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F70D6BA3E661B268BB4837AC /* Pods-SlideOutMenu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SlideOutMenu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SlideOutMenu/Pods-SlideOutMenu.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,8 @@
 			files = (
 				000046171C8CF8A500BAE416 /* FBSDKLoginKit.framework in Frameworks */,
 				000046151C8CEDE200BAE416 /* FBSDKCoreKit.framework in Frameworks */,
+				56507554A07DBBD3422D0A9C /* libPods-SlideOutMenu.a in Frameworks */,
+				0000461E1C8D53A800BAE416 /* libSocialIntegration.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,10 +77,20 @@
 		000046131C8CEDBB00BAE416 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0000461D1C8D53A800BAE416 /* libSocialIntegration.a */,
 				000046161C8CF8A500BAE416 /* FBSDKLoginKit.framework */,
 				000046141C8CEDE200BAE416 /* FBSDKCoreKit.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		000046211C8D549D00BAE416 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				006D9EB61C70C5DB0040D807 /* AppDelegate.h */,
+				000046221C8D549D00BAE416 /* SocialIntegration.h */,
+			);
+			path = include;
 			sourceTree = "<group>";
 		};
 		006D9EA71C70C5DB0040D807 = {
@@ -74,6 +98,8 @@
 			children = (
 				006D9EB21C70C5DB0040D807 /* SlideOutMenu */,
 				006D9EB11C70C5DB0040D807 /* Products */,
+				0B8105AD37F5BE6A96525CAE /* Pods */,
+				94DF7D6BF4015FA354E47D22 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -89,7 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				000046131C8CEDBB00BAE416 /* Frameworks */,
-				006D9EB61C70C5DB0040D807 /* AppDelegate.h */,
+				000046211C8D549D00BAE416 /* include */,
 				006D9EB71C70C5DB0040D807 /* AppDelegate.m */,
 				006D9EB91C70C5DB0040D807 /* ViewController.h */,
 				006D9EBA1C70C5DB0040D807 /* ViewController.m */,
@@ -98,13 +124,16 @@
 				006D9ECF1C70D4D60040D807 /* NavigationViewController.m */,
 				0000460C1C8CE9B400BAE416 /* LoginViewController.h */,
 				0000460D1C8CE9B400BAE416 /* LoginViewController.m */,
-				0000460F1C8CE9FA00BAE416 /* Social buttons by Dreamstale (2).png */,
-				000046111C8CEA1C00BAE416 /* Social buttons by Dreamstale (5).png */,
+				0000460F1C8CE9FA00BAE416 /* socialfb.png */,
+				000046111C8CEA1C00BAE416 /* socialgg.png */,
 				006D9EBF1C70C5DB0040D807 /* Assets.xcassets */,
 				006D9EC11C70C5DB0040D807 /* LaunchScreen.storyboard */,
+				000046181C8D06B000BAE416 /* GoogleService-Info.plist */,
 				006D9EC41C70C5DB0040D807 /* Info.plist */,
 				006D9ED51C70E7F70040D807 /* keOWD.png */,
 				006D9EB31C70C5DB0040D807 /* Supporting Files */,
+				0000461B1C8D4CE500BAE416 /* GGLoginViewController.swift */,
+				0000461A1C8D4CE400BAE416 /* SlideOutMenu-Bridging-Header.h */,
 			);
 			path = SlideOutMenu;
 			sourceTree = "<group>";
@@ -127,6 +156,23 @@
 			path = SlideOutMenuFiles;
 			sourceTree = "<group>";
 		};
+		0B8105AD37F5BE6A96525CAE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F70D6BA3E661B268BB4837AC /* Pods-SlideOutMenu.debug.xcconfig */,
+				7A846355AFAE4FBF604C2A5C /* Pods-SlideOutMenu.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		94DF7D6BF4015FA354E47D22 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9AA5B1BD7D6B3A47872DBEF0 /* libPods-SlideOutMenu.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +180,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 006D9EC71C70C5DB0040D807 /* Build configuration list for PBXNativeTarget "SlideOutMenu" */;
 			buildPhases = (
+				CE0E15BE09137C25D466F318 /* Check Pods Manifest.lock */,
 				006D9EAC1C70C5DB0040D807 /* Sources */,
 				006D9EAD1C70C5DB0040D807 /* Frameworks */,
 				006D9EAE1C70C5DB0040D807 /* Resources */,
+				8784D1FC86FBAC6613E149D8 /* Embed Pods Frameworks */,
+				A46A3E737A47ACBEDA806E7F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -189,12 +238,61 @@
 				006D9EC01C70C5DB0040D807 /* Assets.xcassets in Resources */,
 				006D9EBE1C70C5DB0040D807 /* Main.storyboard in Resources */,
 				006D9ED61C70E7F70040D807 /* keOWD.png in Resources */,
-				000046121C8CEA1C00BAE416 /* Social buttons by Dreamstale (5).png in Resources */,
-				000046101C8CE9FA00BAE416 /* Social buttons by Dreamstale (2).png in Resources */,
+				000046121C8CEA1C00BAE416 /* socialgg.png in Resources */,
+				000046101C8CE9FA00BAE416 /* socialfb.png in Resources */,
+				000046191C8D06B000BAE416 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8784D1FC86FBAC6613E149D8 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SlideOutMenu/Pods-SlideOutMenu-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A46A3E737A47ACBEDA806E7F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SlideOutMenu/Pods-SlideOutMenu-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE0E15BE09137C25D466F318 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		006D9EAC1C70C5DB0040D807 /* Sources */ = {
@@ -203,6 +301,7 @@
 			files = (
 				006D9EBB1C70C5DB0040D807 /* ViewController.m in Sources */,
 				006D9EB81C70C5DB0040D807 /* AppDelegate.m in Sources */,
+				0000461C1C8D4CE500BAE416 /* GGLoginViewController.swift in Sources */,
 				0000460E1C8CE9B400BAE416 /* LoginViewController.m in Sources */,
 				006D9ED01C70D4D60040D807 /* NavigationViewController.m in Sources */,
 				006D9EB51C70C5DB0040D807 /* main.m in Sources */,
@@ -314,32 +413,47 @@
 		};
 		006D9EC81C70C5DB0040D807 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F70D6BA3E661B268BB4837AC /* Pods-SlideOutMenu.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/SlideOutMenu",
 				);
 				INFOPLIST_FILE = SlideOutMenu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SlideOutMenu",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.tiy.SlideOutMenu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SlideOutMenu/SlideOutMenu-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		006D9EC91C70C5DB0040D807 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A846355AFAE4FBF604C2A5C /* Pods-SlideOutMenu.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/SlideOutMenu",
 				);
 				INFOPLIST_FILE = SlideOutMenu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SlideOutMenu",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.tiy.SlideOutMenu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SlideOutMenu/SlideOutMenu-Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

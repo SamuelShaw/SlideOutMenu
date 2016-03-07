@@ -7,12 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Google/SignIn.h>
+#import "SocialIntegration.h"
 
-@interface LoginViewController : UIViewController
 
-- (IBAction)facebookButtonPressed:(id)sender;
+@interface LoginViewController : SocialIntegration
 
-- (IBAction)googleButtonPressed:(id)sender;
+//- (IBAction)facebookButtonPressed:(id)sender;
+//
+//- (IBAction)googleButtonPressed:(id)sender;
 
 
 @end

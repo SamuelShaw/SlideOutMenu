@@ -16,40 +16,47 @@
 
 @implementation LoginViewController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view.
-}
-
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
-
-- (IBAction)facebookButtonPressed:(id)sender
+- (void)viewDidLoad
 {
-    FBSDKLoginManager *login = [[FBSDKLoginManager alloc] init];
-    [login
-     logInWithReadPermissions: @[@"public_profile"]
-     fromViewController:self
-     handler:^(FBSDKLoginManagerLoginResult *result, NSError *error) {
-         if (error) {
-             NSLog(@"Process error");
-         } else if (result.isCancelled) {
-             NSLog(@"Cancelled");
-         } else {
-             NSLog(@"Logged in with Facebook");
-             [self performSegueWithIdentifier:@"fbSuccessSegue" sender:sender];
-         }
-     }];
+    [super viewDidLoad];
+
+    CGRect theRect = CGRectMake((self.view.frame.size.width/2)-(200/2), 100, 200, 40);
+    
+    theRect = CGRectMake((self.view.frame.size.width/2)-(200/2), 150, 200, 40);
+    
+    [self loginToService:SIFacebook
+   withSignInButtonImage:[UIImage imageNamed:@"socialfb"]
+       atCoordinateSpace:theRect withCompletionHandler:^(NSDictionary *userInfo) {
+           NSLog(@"Facebook Id:%@",[userInfo objectForKey:@"userId"]);
+       }];
+    
+    theRect = CGRectMake((self.view.frame.size.width/2)-(200/2), 200, 200, 40);
+    
+    [self loginToService:SIGoogle
+   withSignInButtonImage:[UIImage imageNamed:@"socialgg"]
+       atCoordinateSpace:theRect withCompletionHandler:^(NSDictionary *userInfo) {
+           NSLog(@"Google Id:%@",[userInfo objectForKey:@"userId"]);
+           
+       }];
 }
 
-- (IBAction)googleButtonPressed:(id)sender {
-}
+
+//- (IBAction)facebookButtonPressed:(id)sender
+//{
+//    FBSDKLoginManager *login = [[FBSDKLoginManager alloc] init];
+//    [login
+//     logInWithReadPermissions: @[@"public_profile"]
+//     fromViewController:self
+//     handler:^(FBSDKLoginManagerLoginResult *result, NSError *error) {
+//         if (error) {
+//             NSLog(@"Process error");
+//         } else if (result.isCancelled) {
+//             NSLog(@"Cancelled");
+//         } else {
+//             NSLog(@"Logged in with Facebook");
+//             [self performSegueWithIdentifier:@"fbSuccessSegue" sender:sender];
+//         }
+//     }];
+//}
+
 @end
